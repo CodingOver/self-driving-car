@@ -6,7 +6,7 @@ canvas.width = 200
 // Building Road
 let road = new Road(canvas.width / 2, canvas.width * 0.9)
 // build new car
-let car = new Car(canvas.width / 2, canvas.height / 2, 30, 50)
+let car = new Car(road.getLaneCenter(1), 100, 30, 50)
 
 
 
